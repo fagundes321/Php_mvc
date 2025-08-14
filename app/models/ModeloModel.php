@@ -1,20 +1,20 @@
 <?php 
 
-class Modelo{
+class ModeloModel{
     public $id;
-    public $id_fabricante;
+    public $fabricante;
     public $modelo_fabricante;
 
-    function __construct($id = null, Fabricante $id_fabricante = null, $modelo_fabricante = null)
+    function __construct($id = null, FabricanteModel $fabricante = null, $modelo_fabricante = null)
     {
         $this->id = $id;
 
         
         $this->modelo_fabricante = $modelo_fabricante;
-        if ($id_fabricante != null){
-            $this->id_fabricante = $id_fabricante;
+        if ($fabricante != null){
+            $this->fabricante = $fabricante;
         }else{
-            $this->id_fabricante = new Fabricante;
+            $this->fabricante = new FabricanteModel;
         }
     }
 }

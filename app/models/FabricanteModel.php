@@ -1,6 +1,6 @@
 <?php 
 
-class Fabricante {
+class FabricanteModel {
 
     public $id;
     public $fabricante;
