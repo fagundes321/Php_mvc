@@ -1,3 +1,6 @@
+<?php 
+    require_once __DIR__ . "/config.php";
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -6,6 +9,8 @@
     <title>Oficia VF</title>
 </head>
 <body>
-    
+    <?php 
+    $teste = new FabricanteModel();
+    ?>
 </body>
 </html>

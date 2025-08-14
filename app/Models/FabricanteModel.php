@@ -1,7 +1,6 @@
 <?php 
-
 class FabricanteModel {
-
+ 
     public $id;
     public $fabricante;
 
@@ -12,3 +11,4 @@ class FabricanteModel {
     }
 
 }
+
